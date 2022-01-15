@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[39,)"
+license="GNU GPLv3 "
+issueTrackerURL="https://github.com/aschmois/Modified-Anvil/issues"
+[[mods]]
+modId="modifiedanvil"
+version="${file.jarVersion}"
+displayName="Modified Anvil"
+updateJSONURL="https://github.com/aschmois/Modified-Anvil/blob/master/update.json"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/modified-anvil-forge/files"
+logoFile="modifiedanvil.png"
+authors="aschmois"
+description='''
+Modify the anvil with many config options
+'''
+[[dependencies.modifiedanvil]]
+   modId="forge"
+   mandatory=true
+   versionRange="[39,)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.modifiedanvil]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.18.1,1.19)"
+   ordering="NONE"
+   side="BOTH"

@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cool.avocado.forge.modifiedanvil.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "modifiedanvil.refmap.json",
+  "mixins": [
+    "AnvilMenuMixin"
+  ],
+  "client": [
+    "AnvilScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

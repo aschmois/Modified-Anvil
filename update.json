@@ -1,0 +1,10 @@
+{
+  "homepage": "https://www.curseforge.com/minecraft/mc-mods/modified-anvil-forge/files",
+  "promos": {
+    "1.18.1-latest": "0.0.1",
+    "1.18.1-recommended": "0.0.1"
+  },
+  "1.18.1": {
+    "0.0.1": "Initial Beta Release"
+  }
+}
