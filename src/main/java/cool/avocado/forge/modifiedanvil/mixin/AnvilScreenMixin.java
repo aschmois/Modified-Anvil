@@ -12,7 +12,7 @@ import static cool.avocado.forge.modifiedanvil.utils.Log.LOGGER;
 @Mixin(AnvilScreen.class)
 public abstract class AnvilScreenMixin {
 
-    @ModifyConstant(method = "renderLabels", constant = @Constant(intValue = 40))
+    @ModifyConstant(method = "m_280003_", constant = @Constant(intValue = 40))
     private int changeMax(int a) {
         int maxAnvilLevel = Handler.GENERAL.maxAnvilLevel.get();
         LOGGER.debug(ANVIL_SCREEN_MIXIN, "Setting max level in calculation to: " + maxAnvilLevel);
